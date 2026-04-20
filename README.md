@@ -22,9 +22,7 @@ Implemented a compiler frontend in Python including tokenization, parsing, AST c
 - Executes AST step-by-step
 - Maintains variable environment
 
-## ▶️ How to Run
-
-```bash
+## How to Run
 python main.py
 
 ## Features
@@ -33,8 +31,19 @@ python main.py
 - Recursive Descent Parsing
 - Abstract Syntax Tree (AST)
 - Semantic Error Checking
+- Intermediate Code Generation (IR)
 - Interpreter Execution
 - Supports loops and conditionals
+
+## Intermediate Representation (IR)
+
+The compiler generates three-address code as an intermediate representation.
+
+### Example Output:
+t1 = x * y
+t2 = t1 + 2
+z = t2
+print z
 
 ## Tech Stack
 - Python
