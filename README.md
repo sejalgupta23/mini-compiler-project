@@ -21,3 +21,21 @@ Implemented a compiler frontend in Python including tokenization, parsing, AST c
 ### 🔹 Step 5: Interpretation
 - Executes AST step-by-step
 - Maintains variable environment
+
+## ▶️ How to Run
+
+```bash
+python main.py
+
+## Features
+
+- Lexical Analysis (Tokenization)
+- Recursive Descent Parsing
+- Abstract Syntax Tree (AST)
+- Semantic Error Checking
+- Interpreter Execution
+- Supports loops and conditionals
+
+## Tech Stack
+- Python
+- Compiler Design Concepts
