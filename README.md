@@ -39,12 +39,6 @@ python main.py
 
 The compiler generates three-address code as an intermediate representation.
 
-### Example Output:
-t1 = x * y
-t2 = t1 + 2
-z = t2
-print z
-
 ## Tech Stack
 - Python
 - Compiler Design Concepts
