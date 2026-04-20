@@ -42,3 +42,14 @@ The compiler generates three-address code as an intermediate representation.
 ## Tech Stack
 - Python
 - Compiler Design Concepts
+
+## Output Screenshots
+
+### 🔹 Lexer Output
+![Lexer](stage_1_output.png)
+
+### 🔹 AST Output
+![AST](stage_2_output.png)
+
+### 🔹 IR + Execution Output
+![IR](stage_3,4,5_output.png)
